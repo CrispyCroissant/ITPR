@@ -1,17 +1,14 @@
 import { Request, Response } from "express";
+import { getRandomImage } from "../services/image";
 
-function getImage(req: Request, res: Response): Response {
-  return res.send();
-}
-
-function checkImage(req: Request, res: Response): Response {
-  const { imageHash }: { imageHash: string } = req.body;
-
-  if (!imageHash) {
-    return res.status(400).send({ error: "Image hash not provided" });
+async function getImage(req: Request, res: Response): Promise<Response> {
+  try {
+    const image = await getRandomImage();
+    return res.send(image);
+  } catch (error) {
+    const e = error as Error;
+    return res.status(500).send({ error: e.message });
   }
-
-  return res.send();
 }
 
-export default { getImage, checkImage };
+export default { getImage };
