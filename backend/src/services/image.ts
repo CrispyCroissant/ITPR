@@ -1,4 +1,5 @@
 import axios from "axios";
+import { UnsplashResponse } from "../types/unsplash";
 
 async function getRandomImage(): Promise<Record<string, string>> {
   let image: string;
@@ -20,8 +21,9 @@ async function getRandomImage(): Promise<Record<string, string>> {
           query: "human face",
         },
       });
+      const data: UnsplashResponse = res.data;
 
-      image = res.data.urls.regular;
+      image = data.urls.regular;
     }
   } catch (error) {
     throw error;
