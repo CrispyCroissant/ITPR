@@ -17,6 +17,12 @@ describe("POST /api/image", () => {
   it("exists", async () => {
     const res = await request(app).post(URL);
 
-    expect(res.statusCode).toBe(200);
+    expect(res.statusCode).toBe(400);
+  });
+
+  it("returns 400 if no image hash is provided", async () => {
+    const res = await request(app).post(URL).send();
+
+    expect(res.statusCode).toBe(400);
   });
 });

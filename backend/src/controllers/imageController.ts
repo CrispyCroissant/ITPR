@@ -5,6 +5,12 @@ function getImage(req: Request, res: Response): Response {
 }
 
 function checkImage(req: Request, res: Response): Response {
+  const { imageHash }: { imageHash: string } = req.body;
+
+  if (!imageHash) {
+    return res.status(400).send({ error: "Image hash not provided" });
+  }
+
   return res.send();
 }
 
