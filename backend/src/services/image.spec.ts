@@ -19,7 +19,6 @@ describe("getRandomImage", () => {
   it("returns an image on successful call", async () => {
     jest.spyOn(global.Math, "random").mockReturnValue(0);
     mockedAxios.get.mockResolvedValueOnce({ data: "test" });
-    expect.assertions(1);
 
     const res = await getRandomImage();
     expect(res.image).toBeTruthy();
