@@ -25,6 +25,10 @@ import ButtonGeneric from "./ButtonGeneric.vue";
   backdrop-filter: blur(2px);
 }
 
+.container > :last-child {
+  margin-bottom: 10%;
+}
+
 [class^="title"] {
   color: var(--color-white);
   text-align: center;
@@ -45,6 +49,6 @@ import ButtonGeneric from "./ButtonGeneric.vue";
 
 .title__text {
   max-width: 16rem;
-  margin-bottom: 10%;
+  margin-bottom: 3.5rem;
 }
 </style>
