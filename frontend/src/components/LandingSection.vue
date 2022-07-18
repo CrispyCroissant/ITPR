@@ -1,6 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
+  <div class="bg-image"></div>
   <div class="container">
     <h1 class="title__big">ITPR</h1>
     <h2 class="title__subtitle">Is this person real?</h2>
@@ -18,6 +19,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+[class^="title"] {
+  color: var(--color-white);
 }
 
 .title__big {
@@ -34,5 +40,6 @@
 
 .title__text {
   max-width: 19rem;
+  margin-bottom: 10%;
 }
 </style>
