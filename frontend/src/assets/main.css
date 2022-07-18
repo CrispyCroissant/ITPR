@@ -1,1 +1,11 @@
 @import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@200;300;400;600&display=swap');
+
+body {
+  font-family: "Abel", sans-serif;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
