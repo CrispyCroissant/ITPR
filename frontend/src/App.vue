@@ -1,11 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import LandingSection from "./components/LandingSection.vue";
+</script>
 
 <template>
-  <header>
-    <h1>Header</h1>
-  </header>
-
   <main>
-    <p>Body</p>
+    <LandingSection></LandingSection>
   </main>
 </template>
+
+<style scoped></style>
