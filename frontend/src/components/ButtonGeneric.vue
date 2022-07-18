@@ -25,7 +25,7 @@
 
 .btn:hover {
   transform: scale(1.05) translateY(-2px);
-  box-shadow: 0px 10px 8px 1px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 10px 12px 1px rgba(0, 0, 0, 0.51);
 }
 
 .btn:active {
