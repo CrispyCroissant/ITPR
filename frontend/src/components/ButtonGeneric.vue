@@ -10,10 +10,11 @@
 .btn {
   border: none;
   background-color: transparent;
-  padding: 1rem 3rem;
+  padding: 1rem 2.6rem;
   border-radius: 60px;
 
   font-family: "Oswald", sans-serif;
+  font-size: 1.25rem;
   text-transform: uppercase;
   font-weight: 400;
 
