@@ -24,6 +24,7 @@
 
 [class^="title"] {
   color: var(--color-white);
+  text-align: center;
 }
 
 .title__big {
@@ -35,11 +36,12 @@
 .title__subtitle {
   font-weight: 200;
   font-size: 1.5rem;
+  letter-spacing: 0.05rem;
   margin-bottom: 3rem;
 }
 
 .title__text {
-  max-width: 19rem;
+  max-width: 16rem;
   margin-bottom: 10%;
 }
 </style>
