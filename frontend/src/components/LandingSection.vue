@@ -16,6 +16,8 @@ import ButtonGeneric from "./ButtonGeneric.vue";
 </template>
 
 <style scoped>
+@import "@/assets/animation.css";
+
 .container {
   height: 100vh;
   display: flex;
@@ -56,33 +58,5 @@ import ButtonGeneric from "./ButtonGeneric.vue";
 
 #title-btn {
   animation: slideInBottom 1s 1s backwards;
-}
-
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100rem);
-  }
-
-  70% {
-    transform: translateX(1rem);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInBottom {
-  0% {
-    transform: translateY(100rem);
-  }
-
-  70% {
-    transform: translateY(-1rem);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
 }
 </style>
