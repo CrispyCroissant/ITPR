@@ -34,7 +34,6 @@ import AppButton from "../components/AppButton.vue";
 
 [class^="title"] {
   color: var(--color-white);
-  text-align: center;
   animation: slideInLeft 1s 0.5s backwards;
 }
 
@@ -52,7 +51,7 @@ import AppButton from "../components/AppButton.vue";
 }
 
 .title__text {
-  max-width: 16rem;
+  max-width: 18rem;
   margin-bottom: 3.5rem;
 }
 
