@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import LandingSection from "./components/LandingSection.vue";
+import HomePage from "./pages/HomePage.vue";
 </script>
 
 <template>
   <main>
-    <LandingSection></LandingSection>
+    <HomePage></HomePage>
   </main>
 </template>
 

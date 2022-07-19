@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ButtonGeneric from "./ButtonGeneric.vue";
+import ButtonGeneric from "../components/ButtonGeneric.vue";
 </script>
 
 <template>
