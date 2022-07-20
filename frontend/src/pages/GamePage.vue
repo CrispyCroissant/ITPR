@@ -1,11 +1,15 @@
 <script setup lang="ts">
+import { ref } from "vue";
 import AppButton from "../components/AppButton.vue";
+
+const score = ref<number>(0);
 </script>
 
 <template>
   <div class="bg-image"></div>
   <div class="container container__main">
     <h1 class="title__big">Is this person real?</h1>
+    <h2 class="title__subtitle">Score: {{ score }}</h2>
     <div class="container container__image">
       <img
         src="https://picsum.photos/500"
@@ -59,5 +63,10 @@ import AppButton from "../components/AppButton.vue";
   font-size: 4rem;
   letter-spacing: 0.05rem;
   color: var(--color-white);
+}
+
+.title__subtitle {
+  color: var(--color-white);
+  font-weight: 200;
 }
 </style>
