@@ -1,11 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TheFooter from "./components/TheFooter.vue";
+</script>
 
 <template>
-  <header>
-    <h1>Header</h1>
-  </header>
-
   <main>
-    <p>Body</p>
+    <RouterView></RouterView>
+    <TheFooter></TheFooter>
   </main>
 </template>
+
+<style scoped></style>
