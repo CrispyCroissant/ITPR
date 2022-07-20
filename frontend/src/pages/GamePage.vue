@@ -37,7 +37,7 @@ const score = ref<number>(0);
   align-items: center;
 
   height: 100vh;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(12px);
   overflow: hidden;
 }
 
