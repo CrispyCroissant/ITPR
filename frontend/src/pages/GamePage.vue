@@ -44,7 +44,7 @@ const score = ref<number>(0);
 
 .container__image {
   flex-direction: column;
-  animation: slideInBottom 0.5s backwards;
+  animation: slideInBottom 0.8s backwards;
 }
 
 .container__image > img {
@@ -61,7 +61,7 @@ const score = ref<number>(0);
 }
 
 [class^="title"] {
-  animation: slideInTop 0.5s backwards;
+  animation: slideInTop 0.8s backwards;
 }
 
 .title__big {
