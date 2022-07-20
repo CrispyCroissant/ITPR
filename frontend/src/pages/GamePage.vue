@@ -41,6 +41,10 @@ import AppButton from "../components/AppButton.vue";
   flex-direction: column;
 }
 
+.container__image > img {
+  border-radius: 10px;
+}
+
 .container__buttons {
   justify-content: space-evenly;
 }
