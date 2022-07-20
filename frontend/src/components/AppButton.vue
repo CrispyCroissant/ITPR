@@ -38,4 +38,9 @@
   background-color: var(--color-green);
   color: var(--color-white);
 }
+
+.red {
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
 </style>

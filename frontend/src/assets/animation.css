@@ -1,3 +1,17 @@
+@keyframes slideInTop {
+  0% {
+    transform: translatey(-100rem);
+  }
+
+  70% {
+    transform: translateY(1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100rem);
@@ -23,5 +37,15 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
   }
 }

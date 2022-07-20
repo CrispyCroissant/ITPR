@@ -6,6 +6,7 @@
   --color-white: #fffdfa;
   --color-grey-1: #d0d0d0;
   --color-green: #59ac51;
+  --color-red: #c20c0c;
 }
 
 body {
@@ -14,15 +15,4 @@ body {
 
 h1 {
   font-family: "Oswald", sans-serif;
-}
-
-.bg-image {
-  height: 100vh;
-  width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  z-index: -999;
 }
