@@ -14,7 +14,7 @@ import AppButton from "../components/AppButton.vue";
         alt="Photo of a person"
         class="image__person"
       />
-      <div class="flex container container__buttons">
+      <div class="container container__buttons">
         <AppButton class="red">Not real</AppButton>
         <AppButton class="green">Real</AppButton>
       </div>
