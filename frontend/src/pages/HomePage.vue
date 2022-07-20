@@ -8,7 +8,6 @@ function goToGame(): void {
 </script>
 
 <template>
-  <div class="bg-image"></div>
   <div class="container">
     <h1 class="title__big">ITPR</h1>
     <h2 class="title__subtitle">Is this person real?</h2>

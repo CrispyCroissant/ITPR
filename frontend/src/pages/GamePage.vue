@@ -6,7 +6,6 @@ const score = ref<number>(0);
 </script>
 
 <template>
-  <div class="bg-image"></div>
   <div class="container container__main">
     <h1 class="title__big">Is this person real?</h1>
     <h2 class="title__subtitle">Score: {{ score }}</h2>

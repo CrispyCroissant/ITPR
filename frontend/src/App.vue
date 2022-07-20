@@ -4,6 +4,7 @@ import TheFooter from "./components/TheFooter.vue";
 
 <template>
   <main>
+    <div class="bg-image"></div>
     <RouterView></RouterView>
     <TheFooter></TheFooter>
   </main>
