@@ -27,6 +27,8 @@ const score = ref<number>(0);
 </template>
 
 <style scoped>
+@import "@/assets/animation.css";
+
 .container {
   display: flex;
 }
@@ -43,6 +45,7 @@ const score = ref<number>(0);
 
 .container__image {
   flex-direction: column;
+  animation: slideInBottom 0.5s backwards;
 }
 
 .container__image > img {
@@ -56,6 +59,10 @@ const score = ref<number>(0);
 
 .image__person {
   margin: 3rem 0;
+}
+
+[class^="title"] {
+  animation: slideInTop 0.5s backwards;
 }
 
 .title__big {
